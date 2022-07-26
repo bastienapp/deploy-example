@@ -15,6 +15,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Site déployé !</h1>
       {error && <pre>{error}</pre>}
       <ul>
         {items.map((item) => (
